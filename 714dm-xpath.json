@@ -1,0 +1,23 @@
+{
+  "api": "5",
+  "type": "anime",
+  "name": "714dm-xpath",
+  "version": "1.0.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://www.714dm.com",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "searchURL": "https://www.714dm.com/search/-------------.html?wd=@keyword",
+  "searchList": "//ul[@id='searchList']/li",
+  "searchName": ".//h4[@class='title']/a",
+  "searchResult": ".//h4[@class='title']/a",
+  "chapterRoads": "//div[starts-with(@id,'playlist')]",
+  "chapterResult": ".//li/a",
+  "referer": ""
+}
